@@ -1,0 +1,32 @@
+This is the source code for The Extent of Geographic Markets in the German Retail Gasoline Market
+
+Packages Used:
+pandas version 2.0.3
+numpy version 1.25.2
+sklearn.metrics version 0.0.post9
+matplotlib.pyplot version 3.7.2
+statsmodels.formula.api version 0.14.0
+scipy.cluster version 1.11.2
+
+Data Loading
+input data:
+../Thesis input/tankerkoenig-data/stations/stations.csv
+../Thesis input/tankerkoenig-data/prices/2022
+
+output data:
+Thesis Data/Working Data/price_changes.csv
+Thesis Data/Working Data/price_series.csv
+Thesis Data/stations.csv
+
+Data Visualization
+input data:
+Thesis Data/Working Data/price_changes.csv
+Thesis Data/Working Data/price_series.csv
+Thesis Data/stations.csv
+Thesis Data/brent_crude_spot_time_series.csv
+Thesis Data/FRB_H10.csv
+
+output data:
+QGIS_Data/QGIS_Input/stations_40km.csv
+Thesis Data/Working Data/rand_table.csv
+Dendrograms
